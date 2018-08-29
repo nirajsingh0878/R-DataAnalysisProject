@@ -1,0 +1,11 @@
+getwdw1=read.csv(" .csv")
+data22=read.csv(file.choose(),header=TRUE,sep = ",")
+
+
+a1=data22$Name.of.the.River
+ a2=data22$Total.Coliform.MPN.100.ml.
+ 
+ barplot(a2,ylim=c(0,110000), main="WATER QUALITY IN INDIAN RIVER-2003",sub="RIVERS",font.sub = 3,col.sub = "red" , cex.sub = 2,
+         +                                   ylab="TOTAL COLIFORM IN MPN",font.lab = 3,col.lab = "Red",cex.lab = 1.5, names.arg=a1,
+         +                             beside=TRUE, col=rainbow(11),las=2)
+ abline( h =1.2, col = "black",lwd=4)

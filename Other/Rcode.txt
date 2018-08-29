@@ -1,0 +1,58 @@
+####################################
+square representation
+
+library("highcharter")
+x<-c(as.character(file$Countries))
+y<-file$Population
+data<-data.frame(x,y)
+hchart(data,"treemap",hcaes(x=x,value=y),colorByPoint=TRUE) 
+
+
+###########################################3
+library(highcharter)
+hc <- highchart() %>% 
+  hc_title(text = "<b>Car Vs 2Wheeler sales</b>",
+           margin = 20, align = "left",
+           style = list(color = "#90ed7d", useHTML = TRUE)) %>% 
+  
+  hc_xAxis(categories = file$year) %>% 
+  hc_add_series(name = "Cars", data = file$Cars) %>% 
+  hc_add_series(name = "2 wheeler", data = file$Two.Wheelers) 
+
+hc
+##############################################
+3d bar graph
+
+library(highcharter)
+hc <- highchart() %>% 
+  hc_title(text = "<b>Ratio of population(per Thousand) to cars</b>",
+           margin = 20, align = "left",
+           style = list(color = " #ff0000", useHTML = TRUE)) %>% 
+  
+  hc_xAxis(categories = file$Country) %>% 
+  hc_add_series(name = "2006", data = file$X2006) %>%
+  hc_add_series(name = "2007", data = file$X2007) %>%
+  hc_add_series(name = "2008", data = file$X2008) %>%
+  hc_add_series(name = "2009", data = file$X2009) %>%
+  hc_add_series(name = "2010", data = file$X2010)%>%>
+  hc <- hc %>% 
+  hc_chart(type = "column",
+           options3d = list(enabled = TRUE, beta = 15, alpha = 15))
+   
+
+hc
+
+######################################
+library(highcharter)
+hc <- highchart() %>% 
+  hc_title(text = "<b>Exports and Revenue</b>",
+           margin = 20, align = "left",
+           style = list(color = "#90ed7d", useHTML = TRUE)) %>% 
+  
+  hc_xAxis(categories = file$Country) %>% 
+  hc_add_series(name = "Exports(in Millions)", data = file$volume.In.millions.) %>% 
+  hc_add_series(name = "Revenue (in US$ Billions)", data = file$Exports..US.billions.) 
+
+hc_chart(type = "column", options3d = list(enabled = TRUE, beta = 15, alpha = 15)) 
+
+hc

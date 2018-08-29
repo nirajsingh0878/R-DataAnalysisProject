@@ -1,0 +1,4 @@
+Total Coliform(MPN/100 ml)
+belonging to a group of rod-shaped bacteria typified by E. coli.
+
+Coliform bacteria are a commonly used indicator of sanitary quality of foods and water. They are defined as rod-shaped Gram-negative non-spore forming and motile or non-motile bacteria which can ferment lactose with the production of acid and gas when incubated at 35–37°C. Coliforms can be found in the aquatic environment, in soil and on vegetation; they are universally present in large numbers in the feces of warm-blooded animals. While coliforms themselves are not normally causes of serious illness, they are easy to culture, and their presence is used to indicate that other pathogenic organisms of fecal origin may be present. Such pathogens include disease-causing bacteria, viruses, or protozoa and many multicellular parasites. Coliform procedures are performed in aerobic or anaerobic conditions.

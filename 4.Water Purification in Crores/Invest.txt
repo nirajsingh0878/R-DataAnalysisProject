@@ -1,0 +1,18 @@
+
+
+library(highcharter)
+file<-read.csv("invest.csv")
+inc<-as.numeric(file$InvCenter)
+inc1<-as.numeric(file$InvState)
+
+
+hc <- highchart() %>% 
+  hc_title(text = "<b>Water Purification Investment [In Crores]</b>",
+           margin = 20, align = "left",
+           style = list(color = " #ff0000", useHTML = TRUE)) %>% 
+  
+  hc_xAxis(categories = file$Period) %>% 
+  hc_add_series(name = "Center Investment", data = inc) %>% 
+  hc_add_series(name = "State Investment", data = inc1) 
+
+hc

@@ -1,0 +1,15 @@
+Region 	River 	Length (km) 	Drainage area (km²) 	Average discharge (m³/s) 	Outflow 	Reference 	Note
+Indo-Gangetic plain 	Ganges-Brahmaputra-Meghna 	2948 	1,635,000 	38,129 	Bay of Bengal 	[2] 	Trans-boundary, 3rd largest discharge in the world
+Indo-Gangetic plain 	Indus 	3200 	1,165,000 	6,600 	Arabian Sea 		Trans-boundary, flows mainly through Ladakh in India
+West Coast 	West flowing rivers south of Tapti 	NA 	NA 	6,371 	Arabian Sea 	[2] 	Includes Periyar, Vaigai, Sharavathi, Kali, Mandovi, Zuari
+Deccan 	Godavari 	1465 	312,812 	3505 	Bay of Bengal 	[2] 	Largest river in South India
+Deccan 	Krishna 	1400 	258,948 	2213 	Bay of Bengal 	[2] 	2nd largest river in South India
+East Coast 	Mahanadi 	858 	141,600 	2119 	Bay of Bengal 	[2] 	
+Central India 	Narmada 	1312 	98,796 	1447 	Arabian Sea 	[2] 	Largest west flowing river within India
+East Coast 	Brahmi-Baitarani 	480 	39033 	903 	Bay of Bengal 	[2] 	Second largest river in Odisha
+South India 	Cauvery 	765 	81,155 	677 	Bay of Bengal 	[2] 	Largest river of Tamil Nadu
+East Coast 	East flowing rivers between Mahanadi and Godavari 	NA 	NA 	561 	Bay of Bengal 	[2] 	Includes Vamsadhara
+Central India 	Tapti 	724 	65,145 	489 	Arabian Sea 	[2] 	
+East Coast 	Subarnarekha 	470 	19300 	392 	Bay of Bengal 	[2] 	
+Central India 	Mahi 	580 	34842 	383 	Arabian Sea 	[2] 	
+South India 	Penner 	597 	55213 	200.4

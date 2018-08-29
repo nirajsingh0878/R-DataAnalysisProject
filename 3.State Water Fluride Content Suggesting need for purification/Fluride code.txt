@@ -1,0 +1,24 @@
+#Water quality in India 2003
+
+
+library(highcharter)
+file<-read.csv("gwd.csv")
+inc<-as.numeric(file$FLUORIDEMean)
+inc1<-as.numeric(file$one)
+hc <- highchart() %>% 
+  hc_title(text = "<b>State Water Fluride Content [mg/l]</b>",
+           margin = 20, align = "left",
+           style = list(color = " #ff0000", useHTML = TRUE)) %>% 
+  
+  hc_xAxis(categories = file$State) %>% 
+  hc_add_series(name = "Fluride", data = inc) %>% 
+  hc_add_series(name = "Safe limit", data = inc1) 
+
+hc
+hc <- hc %>% 
+  hc_chart(type = "column",
+           options3d = list(enabled = TRUE, beta = 15, alpha = 15))
+
+
+hc
+

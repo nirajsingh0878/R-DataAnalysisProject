@@ -1,0 +1,7 @@
+library("highcharter")
+file<-read.csv("renewable.csv")
+x<-c(as.character(file$Country))
+y<-file$Total.renewable
+data<-data.frame(x,y)
+hchart(data,"treemap",hcaes(x=x,value=y),colorByPoint=TRUE) 
+

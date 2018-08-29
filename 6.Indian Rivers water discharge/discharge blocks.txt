@@ -1,0 +1,8 @@
+
+library("highcharter")
+file<-read.csv("discharge.csv")
+x<-c(as.character(file$River))
+y<-file$Avgdischarge
+data<-data.frame(x,y)
+hchart(data,"treemap",hcaes(x=x,value=y),colorByPoint=TRUE) 
+

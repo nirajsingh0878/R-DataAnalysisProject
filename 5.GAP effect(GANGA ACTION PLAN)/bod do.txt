@@ -1,0 +1,17 @@
+
+library(highcharter)
+file<-read.csv("ganga.csv")
+inc<-as.numeric(file$DO1986)
+inc1<-as.numeric(file$DO2011)
+
+
+hc <- highchart() %>% 
+  hc_title(text = "<b>Ganga Action Plan Relative study DO</b>",
+           margin = 20, align = "left",
+           style = list(color = " #00FF00", useHTML = TRUE)) %>% 
+  
+  hc_xAxis(categories = file$Loc) %>% 
+  hc_add_series(name = "DO 1986", data = inc, color= "blue") %>% 
+  hc_add_series(name = "DO 2011", data = inc1, color= "black") 
+
+hc

@@ -1,0 +1,14 @@
+Name of the River,Length(Km),No. of Monitoring locations,Year,Temp.(in degree Centigrade),pH,Conductivity(?mhos/cm),Dissolved Oxygen(D.O.)(mg/l),Biochemical oxygen demand(B.O.D.)(mg/l),Total Coliform(MPN/100 ml),Faecal Coliform(MPN/100 ml)
+Ganga,2525,39,2005,Apr-39,9,1696,12.8,15.2,92000,  11x105
+Yamuna,1376,23,2005,Nov-37,9.1,2290,17.3,59,84000,  52x105
+Mahi,583,9,2005,32,9,7080,11.1,5.9,14000,  1x103
+Tapi,724,13,2005,30,9.4,1084,8.4,25.1,46000,  15X104
+Godavari,1465,18,2005,32,9.1,1300,8.7,20,33000,  10 x 103
+Krishna,1401,21,2005,37,9.9,43300,8.8,40,47000,  34 x 103
+Mahanadi,851,21,2005,34,8.7,36279,10,16,45000,  54X103
+Brahamani,799,11,2005,34,8.7,850,13.8,5.2,16000,  16x104
+Baitarni,NA,5,2005,34,8.6,42257,8.8,4.3,24000,  11x103
+Subarnarekha,395,6,2005,36,8.3,405,8.6,4.7,14000,700
+Brahmaputra,916,10,2005,NA,7.6,408,10.5,6.2,24000,  24x104
+Satluj,1078,21,2005,28-Oct,8.3,818,14.2,40,35000,  11x104
+Beas,460,19,2005,27-Apr,8.8,395,13,10,11000,1100
